@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service Directory - Bangladesh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Emergency Service Logo" class="custom-logo">
+            </div>
+            <span class="website-name">Emergency Service</span>
+        </div>
+        <div class="nav-right">
+            <div class="heart-count">
+                <img src="assets/heart.png" alt="Heart" class="nav-icon">
+                <span id="heartCount">0</span>
+            </div>
+            <div class="coin-count">
+                <img src="assets/coin.png" alt="Coin" class="nav-icon">
+                <span id="coinCount">100</span>
+            </div>
+            <div class="copy-count">
+                <span id="copyCount">0</span> Copy
+            </div>
+        </div>
+    </nav>
+
+  
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="assets/logo-dark.png" alt="Emergency Service Logo" class="custom-logo large">
+            </div>
+            <h1 class="hero-title">Emergency Service Directory</h1>
+            <p class="hero-slogan">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
+        </div>
+    </section>
+
+
+    <main class="main-section">
+       
+        <section class="card-section">
+            <div class="cards-grid" id="cardsGrid">
+                
+            </div>
+        </section>
+
+        <section class="history-section">
+            <div class="history-header">
+                <div class="history-title">
+                    <i class="fas fa-clock"></i>
+                    <span>Call History</span>
+                </div>
+                <button class="clear-btn" id="clearHistoryBtn">Clear</button>
+            </div>
+            <div class="history-list" id="historyList">
+               
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
